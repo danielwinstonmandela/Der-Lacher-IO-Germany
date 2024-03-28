@@ -1,0 +1,617 @@
+
+
+.navbar {
+    height: 70px;
+    width: 100%; /* Adjusted to full width */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* border: 2px solid #333; */
+    display: flex;
+}
+
+.der_lacher_logo {
+    margin-bottom: 5px;
+    margin-left: 2px;
+    height: 200px;
+}
+
+.der_lacher_logo:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+
+
+.der_lacher_logo:hover {
+    cursor: pointer;
+}
+
+.nav_list {
+    margin-left: 40%;
+    display: flex; 
+    /* border: 2px solid #2C2828;  */
+    font-family: 'Lato', sans-serif; /* Added fallback font */
+}
+
+.nav_list ul {
+    padding: 0; /* Added to remove default padding */
+    display: flex;
+    list-style: none;
+}
+
+.nav_list ul li {
+    margin: 0 60px; /* Adjusted margin for spacing between list items */
+}
+
+.nav_list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.nav_list ul li a:hover {
+    color: darkslategrey;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-size: 120%;
+}
+
+.explore_container {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1090px;
+    background: #F8F6EF;
+    filter: drop-shadow(0 0 0.4rem #333);
+    border: 2px solid white;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.a_journey_into {
+    font-family: "Magical Night (DEMO)";
+    margin-top: 325px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid #333; */
+    font-size: 48px;
+    position: relative;
+}
+
+.lets_sneak_off {
+    margin-top: 0.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid #333; */
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.explore_images {
+    display: flex;
+    margin: auto;
+    /* border: 2px solid #333; */
+}
+
+.horse_image {
+    width: 294px;
+    height: 447px;
+    justify-content: left;
+    /* border: 2px solid #333; */
+    display: flex;
+    margin-right: auto;
+}
+
+.dog_image {
+    width: 220px;
+    height: 234px;
+    justify-content: right;
+    /* border: 2px solid #333; */
+    display: flex;
+    margin-left: auto;
+}
+
+.explore_button {
+    margin: 65px auto;
+    border-radius: 20px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.explore_button a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 35px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.explore_button:hover {
+    cursor: pointer;
+    transition-duration: 1.1s;
+    transform: scale(1.3);
+}
+
+.explore_button a:hover {
+    cursor: pointer;
+    background-color: black;
+    transition-duration: 0.3s;
+    color: white;
+}
+
+.smile_now_container {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 618px;
+    border: 2px solid #333;
+}
+
+.smile_now {
+    margin-top: 110px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    /* border: 2px solid #333; */
+}
+
+.start_from_categories_below {
+    margin-top: 0.5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    /* border: 2px solid #333; */
+}
+
+.smile_cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #333; */
+}
+
+.smile_cards ul {
+    padding: 0; /* Added to remove default padding */
+    display: flex;
+    list-style: none;
+}
+
+.smile_cards ul li {
+    margin: 0 25px; /* Adjusted margin for spacing between list items */
+}
+
+.smile_card {
+    width: 218px;
+    height: 275px;
+    border: 2px solid #333;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.smile_card_image {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    width: 140px;
+    height: 150px;;
+    /* border: 2px solid #333; */
+
+}
+
+.smile_card_title {
+    padding-top: 25px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.smile_card:hover {
+    cursor: pointer;
+    background-color: #F8F6EF;
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+
+.facts_container {
+    width: 100%;
+    height: 1240px;     
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #333;
+}
+
+.facts {
+    margin-top: 50px;
+    font-size: 36px;
+    /* border: 2px solid #333; */
+}
+
+.facts_description {
+    margin-top: 2%;
+    font-size: 20px;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.facts_images_container {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #333; */
+    height: 650px;
+}
+
+.mental_disorders_img {
+    width: 927px;
+    height: 312px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.facts_images_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 2px solid #333; */
+}
+
+.facts_images {
+    margin: 0 8px;
+    width: 454px;
+    height: 300px;
+    border: 2px solid #333;
+    background-color: grey;
+}
+
+.dialogue {
+    padding-top: 10px;
+    font-size: 24px;
+    padding-bottom: 20px;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.perspective {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    /* border: 2px solid #333; */
+}
+
+.funny_content_container {
+    margin: 0 auto;
+    width: 100%;
+    height: 1659px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.funny_content {
+    margin-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    /* border: 2px solid #333; */
+}
+
+.funny_content_description {
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: center;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.funny_categories {
+    margin-top: 50px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333; 
+}
+
+.funny_categories ul {
+    padding: 0; /* Added to remove default padding */
+    display: flex;
+    list-style: none;
+}
+
+.funny_categories ul li {
+    margin: 0 20px; /* Adjusted margin for spacing between list items */
+    text-align: center;
+    justify-content: center;
+}
+
+.funny_categories ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.funny_videos {
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    width: 1326px;
+    height: 1063px;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
+
+.funny_row1 {
+    height: 635px;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.funny_row1_column1 {
+    height: 635px;
+    width: 35%;
+    border: 2px solid black; 
+}
+
+.funny_row1_column2 {
+    height: 635px;
+    width: 65%;
+    /* border: 2px solid black; */
+}
+
+.funny_row1_column2_row1 {
+    height: 49.5%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.funny_row1_column2_row2 {
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.funny_row2 {
+    height: 428px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.show_more_button a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 35px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.show_more_button:hover {
+    cursor: pointer;
+    transition-duration: 1.1s;
+    transform: scale(1.3);
+}
+
+.beer_spots_container {
+    margin: 0 auto;
+    width: 100%;
+    height: 1370px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.beer_spots {
+    margin-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    /* border: 2px solid #333; */
+}
+
+.beer_spots_description {
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: center;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.search_bar {
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #333; */
+
+}
+
+.search_bar input{
+    height: 50px;
+    width: 50%;
+    border: 2px solid #333;
+    margin: 0 auto;
+}
+
+/* .search_bar button {
+    height: 50px;
+    width: 100px;
+    border: 2px solid #333;
+    background-color: #F8F6EF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+} */
+
+.maps {
+    height: 550px;
+    width: 903px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.beer_cards {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 256px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  border: 2px solid #333;  */
+}
+
+.beer_cards ul {
+    padding: 0; /* Added to remove default padding */
+    display: flex;
+    list-style: none;
+}
+
+.beer_cards ul li {
+    margin: 0 20px; /* Adjusted margin for spacing between list items */
+}
+
+.beer_card {
+    width: 530px;
+    height: 256px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.beer_card:hover {
+    cursor: pointer;
+    background-color: #F8F6EF;
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+
+.beer_card_image {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #333;
+    position: relative; 
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 100%;
+    height: 650px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+.join_us {
+    margin-top: 125px;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 75px;
+    /* border: 2px solid #333; */
+}
+
+.footer_text {
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 75px;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer_icons {
+    margin-top: 2%;
+    margin-left: 75px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    /* border: 2px solid #333; */
+}
+
+.footer_icons ul {
+    padding: 0; /* Added to remove default padding */
+    display: flex;
+    list-style: none;
+}
+
+.footer_icons ul li {
+    margin: 0 20px; /* Adjusted margin for spacing between list items */
+    text-align: center;
+    justify-content: center;
+}
+
+.social_media_icon {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #333;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.social_media_icon:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+
+}
+
+.footer_text2 {
+    margin-top: 6%;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 75px;
+    /* border: 2px solid #333; */
+    font-family: "Open Sans", sans-serif;
+}
+
+.der_lacher_logo1 {
+    height: 200px;
+}
+
+.der_lacher_logo1:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
