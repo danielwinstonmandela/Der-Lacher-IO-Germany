@@ -195,6 +195,11 @@
     margin: 0 25px; /* Adjusted margin for spacing between list items */
 }
 
+.smile_cards ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .smile_card {
     width: 218px;
     height: 275px;
