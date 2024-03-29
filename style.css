@@ -150,9 +150,8 @@
 }
 
 .shrek_image {
-    margin: auto;
-    width: 220px;
-    height: 234px;
+    height: 457px;
+    margin: 0 auto;
     justify-content: center;
     /* border: 2px solid #333; */
 }
@@ -311,9 +310,15 @@
 .mental_disorders_img {
     width: 927px;
     height: 312px;
-    border: 2px solid #333;
+   /*  border: 2px solid #333; */
     margin: 0 auto;
     background-color: grey;
+}
+
+.mental_disorders_img:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
 }
 
 .facts_images_flex {
@@ -328,8 +333,15 @@
     margin: 0 8px;
     width: 454px;
     height: 300px;
-    border: 2px solid #333;
+    /* border: .5px solid #333; */
     background-color: grey;
+}
+
+.facts_images:hover {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+
 }
 
 .dialogue {
