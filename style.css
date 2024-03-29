@@ -149,6 +149,14 @@
     margin-left: auto;
 }
 
+.shrek_image {
+    margin: auto;
+    width: 220px;
+    height: 234px;
+    justify-content: center;
+    /* border: 2px solid #333; */
+}
+
 .explore_button {
     margin: 65px auto;
     border-radius: 20px;
