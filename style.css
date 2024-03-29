@@ -125,6 +125,17 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.about_us_img {
+    margin-top: 50px;
+    margin-left: 300px;
+    height: 242px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid #333; */
+
+}
+
 .explore_images {
     display: flex;
     margin: auto;
@@ -492,6 +503,7 @@
     border: 2px solid #333;
 }
 
+
 .beer_spots {
     margin-top: 50px;
     font-size: 36px;
@@ -567,6 +579,11 @@
     margin: 0 20px; /* Adjusted margin for spacing between list items */
 }
 
+.beer_cards ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .beer_card {
     width: 530px;
     height: 256px;
@@ -576,6 +593,13 @@
     justify-content: center;
     text-align: center;
     display: flex;
+}
+
+.beer_card_title {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    margin-bottom: 50px;
 }
 
 .beer_card:hover {
@@ -588,8 +612,17 @@
 .beer_card_image {
     height: 200px;
     width: 200px;
+    margin-left: 20px;
     border: 2px solid #333;
     position: relative; 
+}
+
+.beer_desc {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    margin-left: 20px;
+
 }
 
 .footer_container {
@@ -646,7 +679,7 @@
 .social_media_icon {
     height: 80px;
     width: 80px;
-    border: 2px solid #333;
+   /*  border: 2px solid #333; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -671,6 +704,9 @@
 
 .der_lacher_logo1 {
     height: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .der_lacher_logo1:hover {
